@@ -1,0 +1,19 @@
+Crie um sistema cujo backend seja construído em ASP.Net Web API e utilize o Entity Framework enquanto o front-end seja construído em React. É aconselhável o uso do banco de dados SQLite. O sistema deve possuir ao menos dois tipos de usuários com permissões de acesso diferentes e a autenticação e autorização devem ser feitas de forma segura através de tokens JWT. O sistema deve ter no mínimo duas entidades onde as quatro operações básicas de um CRUD devem ser tratadas pelo back-end.
+
+
+
+A nota máxima para este trabalho é 9 pontos, dos quais 1 ponto será reservado para aplicações que apresentaram relacionamentos 1 para N ou relacionamento N para N no banco de dados.
+
+
+
+Este trabalho é individual. A entrega deve ser feita através de link para o repositório no GitHub ou GitLab.
+
+
+
+Seguem alguns links que podem te ajudar:
+
+https://learn.microsoft.com/pt-br/ef/core/modeling/relationships/one-to-one
+
+https://learn.microsoft.com/pt-br/ef/core/modeling/relationships/one-to-many
+
+https://learn.microsoft.com/pt-br/ef/core/modeling/relationships/many-to-many
