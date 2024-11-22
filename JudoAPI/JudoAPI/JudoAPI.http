@@ -1,0 +1,11 @@
+@JudoAPI_HostAddress = http://localhost:5022
+
+GET {{JudoAPI_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{JudoAPI_HostAddress}}/todos/1
+Accept: application/json
+
+###
