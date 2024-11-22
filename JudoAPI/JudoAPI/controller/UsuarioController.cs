@@ -29,6 +29,6 @@ namespace JudocaAPI.Controllers
             return CreatedAtAction(nameof(GetAll), new { id = usuario.Id }, usuario);
         }
 
-        // Outros métodos de CRUD...
+
     }
 }
