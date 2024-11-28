@@ -8,15 +8,15 @@ using JudoAPI.Models;
 public class JudoContext : DbContext
 {
     public DbSet<Usuario> Usuarios { get; set; }
+    public DbSet<Aluno> AlunoAulas { get; set; }
     public DbSet<Aula> Aulas { get; set; }
-    public DbSet<AlunoAula> AlunoAulas { get; set; }
+    public object Alunos { get; internal set; }
 
     public JudoContext(DbContextOptions<JudoContext> options) : base(options) { }
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        modelBuilder.Entity<AlunoAula>()
-            .HasKey(aa => new { aa.AlunoId, aa.AulaId });
+        optionsBuilder.UseSqlite("Data Source=judodb");
     }
 }
 

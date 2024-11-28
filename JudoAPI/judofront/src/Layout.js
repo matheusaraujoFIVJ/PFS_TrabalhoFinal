@@ -59,7 +59,7 @@ const Layout = () => {
             <span className="footer-italic"> Link para contato via Whatsapp! - Matheus Alcântara </span>
           </a>
           <p>Treinos Adulto: Aos Domingos de 10:00 às 12:00 no Grupo dos 13.</p>
-          <p>Treinos Infanto-Juvenil: Terças, Quartas, Quintas e Sextas: das 17:40 às 18:40</p>
+          <p>Treinos Infanto-Juvenil: Terças, Quartas, Quintas e Sextas: das 17:40 às 18:40 no Colégio Santa Clara.</p>
         </Typography>
       </footer>
     </>

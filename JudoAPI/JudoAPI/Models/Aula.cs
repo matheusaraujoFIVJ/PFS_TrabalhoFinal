@@ -8,6 +8,6 @@ public class Aula
     public string Descricao { get; set; }
     public int ProfessorId { get; set; }
     public Usuario Professor { get; set; }
-    public ICollection<AlunoAula> AlunoAulas { get; set; }
+    public ICollection<Aluno> Alunos { get; set; }
 }
 
